@@ -32,6 +32,7 @@ public class LoginApplication {
 	RediffHomePage rh = new RediffHomePage(d);
 	rh.Searchtext().sendKeys("books");
 	rh.Searchbtn().click();
+	System.out.println("text1");
 	
 		
 	
